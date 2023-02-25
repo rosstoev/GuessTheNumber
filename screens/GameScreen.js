@@ -1,13 +1,12 @@
-import { View, StyleSheet, Alert, FlatList, Text } from "react-native";
+import { View, StyleSheet, Alert, FlatList } from "react-native";
 import { useState, useEffect } from "react";
 import { Ionicons } from "@expo/vector-icons";
 
 import Title from "../components/ui/Title";
-import NumberContainer from "../components/ui/game/NumberContainer";
+import NumberContainer from "../components/game/NumberContainer";
 import PrimaryButton from "../components/ui/PrimaryButton";
 import Card from "../components/ui/Card";
 import InstructionText from "../components/ui/InstructionText";
-import color from "../constants/color";
 import GuessLog from "../components/ui/GuessLog";
 
 function generateRandomBetween(min, max, exclude) {
