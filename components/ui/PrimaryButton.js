@@ -21,19 +21,19 @@ export default PrimaryButton;
 const styles = StyleSheet.create({
   buttonOuterContainer: {
     borderRadius: 28,
-    margin: 4,
+    marginHorizontal: 40,
     overflow: 'hidden',
   },
   buttonInnerContainer: {
     backgroundColor: color.secondary,
-    paddingVertical: 8,
-    paddingHorizontal: 26,
+    paddingVertical: 5,
+    paddingHorizontal: 10,
     elevation: 2,
   },
   buttonText: {
     color: 'white',
     textAlign: 'center',
-    fontFamily: 'openSansR'
+    fontFamily: 'openSansR',
   },
   buttonRipple: {
     color: color.secondary200,
